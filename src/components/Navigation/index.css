@@ -1,13 +1,19 @@
 *{
-    color: black;
-    
-    
-
+    margin: 0px;
     }
 
 h1{
     text-align: center;
+    color: rgb(21, 19, 44);
+    padding-top: 30px;
+    padding-bottom: 5px;
+    
 }
+
+h2{
+    padding:20px;
+}
+
 
 .AuthOn  ul {
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -18,13 +24,16 @@ h1{
         text-align: center;
         border-top: solid;
         border-bottom: solid;
-        margin: 50px;
-
+        margin: 0px;
+        background-color: rgb(112, 150, 233);
         font-size: 20px;
+        font-weight: bold;
+    
+
     }
  .AuthOn   a:link, a:visited {
-       color: rgb(0, 0, 0);
-        padding: 14px 25px;
+       color: rgb(235, 235, 235);
+       padding: 20px;
         text-align: center;
         text-decoration: none;
         padding-left: 30px;
@@ -44,7 +53,7 @@ h1{
 .AuthOn   button{
         background: none;
         padding: 20px 40px 20px 40px;
-
+        font-weight: bold;
         border: none;
         font-size: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -66,6 +75,9 @@ h1{
         border-top: solid;
         border-bottom: solid;
         font-size: 20px;
+        font-weight: bolder;
+        background-color: rgb(112, 150, 233);
+
     
 }    
 
@@ -87,20 +99,20 @@ h1{
 form{
     text-align: left;
     margin-left: 5px;
-    padding: 10px 20px 10px 20px;
-
+    padding: 5px 20px 5px 20px;
 
 }
    input{
-    padding: 10px 20px 10px 20px;
+    padding: 5px 20px 5px 20px;
 
    }
  button{
-    padding: 10px 20px 10px 20px;
+    padding: 5px 20px 5px 20px;
 
 }
 p{
-    margin-left: 25px;
+    margin: 25px;
+    
 
 }
 
@@ -128,4 +140,8 @@ h1 {
  -webkit-animation-duration:1s;
  -moz-animation-duration:1s;
  animation-duration:1s;
+}
+
+body{
+    margin-bottom: 500px;
 }
