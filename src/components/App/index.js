@@ -50,9 +50,11 @@ class App extends Component {
           <Route exact path={ROUTES.ACCOUNT} component={AccountPage} />
           <Route exact path={ROUTES.ADMIN} component={AdminPage} />
           </div>
-        </div>
+
+          </div>
 
         </Router>
+
     );
   }
 }

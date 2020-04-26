@@ -6,7 +6,6 @@ import StripeCheckoutButton from './Checkout';
 
 export const HomePage = props => (
 <div className = 'HomePage'>
-    <img alt= " title"src={"Screenshot_5.png"}></img>
     <div className = 'Title'>
     <h2>"Now all you need is a phone that can scan a code and you're Set!"</h2>
     </div>

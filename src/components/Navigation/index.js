@@ -12,7 +12,7 @@ const Navigation = ({ authUser }) => (
 
 const NavigationAuth = () => (
   <div className="AuthOn">
-  <h1>Welcome to Pay By Barcode!</h1>
+  <h1 className="fade">Welcome to Pay By Barcode!</h1>
   <ul>
     <li>
       <Link to={ROUTES.LANDING}>Home</Link>
@@ -32,6 +32,8 @@ const NavigationAuth = () => (
 
 const NavigationNonAuth = () => (
   <div className="AuthOff">
+  <h1 className="fade">Welcome to Pay By Barcode!</h1>
+
   <ul>
     <li>
       <Link to={ROUTES.LANDING}>Home</Link>

@@ -1,5 +1,8 @@
 *{
     color: black;
+    
+    
+
     }
 
 h1{
@@ -15,6 +18,7 @@ h1{
         text-align: center;
         border-top: solid;
         border-bottom: solid;
+        margin: 50px;
 
         font-size: 20px;
     }
@@ -36,17 +40,6 @@ h1{
         
       }
 
- /*   ul li{
-        text-decoration: none;
-        color: #000000;
-        padding: 20px 40px;
-        transition: 0.6s ease;
-        }
-     ul li:hover {
-        background-color: darkgray;
-        color: #000000;
-    }
-*/
 
 .AuthOn   button{
         background: none;
@@ -109,4 +102,30 @@ form{
 p{
     margin-left: 25px;
 
+}
+
+h1 {
+    font-weight: strong;
+    font-size: 35px; 
+-webkit-animation-delay: 0.5s;
+ -moz-animation-delay: 0.7s;
+ animation-delay: 0.7s;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ h1 {
+ opacity:0;
+ -webkit-animation:fadeIn ease-in 1;
+ -moz-animation:fadeIn ease-in 1;
+ animation:fadeIn ease-in 1;
+
+ -webkit-animation-fill-mode:forwards;
+ -moz-animation-fill-mode:forwards;
+ animation-fill-mode:forwards;
+
+ -webkit-animation-duration:1s;
+ -moz-animation-duration:1s;
+ animation-duration:1s;
 }
