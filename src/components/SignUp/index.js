@@ -69,6 +69,7 @@ class SignUpFormBase extends Component {
 
     return (
       <form onSubmit={this.onSubmit}>
+      <h4>Full Name:</h4>
         <input
           name="username"
           value={username}
@@ -76,6 +77,8 @@ class SignUpFormBase extends Component {
           type="text"
           placeholder="Full Name"
         />
+        <h4>Your Buisness Name:</h4>
+
         <input
         BuisnessName="BuisnessName"
         value={BuisnessName}
@@ -83,6 +86,8 @@ class SignUpFormBase extends Component {
         type="text"
         placeholder="BuisnessName"
       />
+      <h4>Email:</h4>
+
         <input
           name="email"
           value={email}
@@ -90,6 +95,7 @@ class SignUpFormBase extends Component {
           type="text"
           placeholder="Email Address"
         />
+        <h4>Password:</h4>
         <input
           name="passwordOne"
           value={passwordOne}
@@ -97,6 +103,7 @@ class SignUpFormBase extends Component {
           type="password"
           placeholder="Password"
         />
+        <h4>Retype Password:</h4>
         <input
           name="passwordTwo"
           value={passwordTwo}

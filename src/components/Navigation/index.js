@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './index.css';
+
 
 import SignOutButton from '../SignOut';
 import * as ROUTES from '../../constants/routes';
@@ -9,13 +11,15 @@ const Navigation = ({ authUser }) => (
 );
 
 const NavigationAuth = () => (
+  <div className="AuthOn">
+  <h1>Welcome to Pay By Barcode!</h1>
   <ul>
     <li>
       <Link to={ROUTES.LANDING}>Home</Link>
     </li>
     <li>
-      <Link to={ROUTES.HOME}>Checkout</Link>
-    </li>
+      <Link to={ROUTES.HOME}>CheckOut</Link>
+    </li> 
     <li>
       <Link to={ROUTES.ACCOUNT}>Account</Link>
     </li>
@@ -23,17 +27,20 @@ const NavigationAuth = () => (
       <SignOutButton />
     </li>
   </ul>
+  </div>
 );
 
 const NavigationNonAuth = () => (
+  <div className="AuthOff">
   <ul>
     <li>
-      <Link to={ROUTES.LANDING}>Landing</Link>
+      <Link to={ROUTES.LANDING}>Home</Link>
     </li>
     <li>
       <Link to={ROUTES.SIGN_IN}>Sign In</Link>
     </li>
   </ul>
+  </div>
 );
 
 export default Navigation;
