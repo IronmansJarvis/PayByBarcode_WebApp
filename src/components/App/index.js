@@ -10,8 +10,11 @@ import HomePage from '../Home';
 import AccountPage from '../Account';
 import AdminPage from '../Admin';
 
+
 import * as ROUTES from '../../constants/routes';
 import { withFirebase } from '../Firebase';
+
+import CheckOutPage from '../Home/CheckOutPage/CheckOutPage.jsx'
 
 class App extends Component {
   constructor(props) {
@@ -46,9 +49,10 @@ class App extends Component {
           <Route exact path={ROUTES.SIGN_UP} component={SignUpPage} />
           <Route exact path={ROUTES.SIGN_IN} component={SignInPage} />
           <Route exact path={ROUTES.PASSWORD_FORGET} component={PasswordForgetPage} />
-          <Route exact path={ROUTES.HOME} component={HomePage} />
+          <Route exact path={ROUTES.HOME} component={ CheckOutPage} />
           <Route exact path={ROUTES.ACCOUNT} component={AccountPage} />
           <Route exact path={ROUTES.ADMIN} component={AdminPage} />
+          <Route path="/:amount/:id" component={CheckOutPage}/>
           </div>
 
           </div>
@@ -60,3 +64,4 @@ class App extends Component {
 }
 
 export default withFirebase(App);
+

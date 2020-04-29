@@ -1,0 +1,30 @@
+
+.CheckOutPage {
+  text-align: center;
+  margin-top: 20px;  
+
+}
+.CheckOutPage h1{
+  margin: 30px;
+}
+.CheckOutPage h2{
+  margin: 15px;
+}
+.Checkout{
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 50px; 
+  margin-left: 400px;
+  margin-right: 400px;
+  border: solid 2px;
+  backdrop-filter: blur(100px);
+  
+
+}
+
+.Checkout ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}

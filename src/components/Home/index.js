@@ -1,9 +1,9 @@
 import React from 'react';
-import { HomePage } from './HomePage/Homepage';
+import CheckOutPage  from './CheckOutPage/CheckOutPage';
 
 const Home = () => (
   <div>
-    <HomePage/>
+    <CheckOutPage/>
   </div>
 );
 
