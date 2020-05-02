@@ -2,7 +2,7 @@ import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
 
 
-const StripeCheckoutButton = ({price}) => {
+const StripeCheckoutButton = ({ price }) => {
    const stripePrice = price * 100;
    const publishableKey = 'pk_test_9Vx8e3fYCgvnTcL7VcPABfqb00gUK0XHu1'
     const onToken = token => {
@@ -17,7 +17,7 @@ const StripeCheckoutButton = ({price}) => {
             shippingAddress
             billingAddress
             image='https://svgshare.com/i/CUz.svg'
-            description={'Your total is $$50.00 '}
+            description={`Your Total is $${price}`}
             amount={stripePrice}
             token={onToken}
             stripeKey={publishableKey}

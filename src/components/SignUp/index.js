@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
+import Firebase from '../Firebase';
 
 const SignUpPage = () => (
   <div>
@@ -27,7 +28,8 @@ class SignUpFormBase extends Component {
   }
 
   onSubmit = event => {
-    const { username, email, passwordOne, BuisnessName } = this.state;
+    const { first_name, last_name, email, passwordOne} = this.state;
+
 
     this.props.firebase
       .doCreateUserWithEmailAndPassword(email, passwordOne )
@@ -53,11 +55,11 @@ class SignUpFormBase extends Component {
   render() {
 
     const {
-      username,
+      first_name,
+      last_name,
       email,
       passwordOne,
       passwordTwo,
-      BuisnessName,
       error,
     } = this.state;
 
@@ -65,26 +67,27 @@ class SignUpFormBase extends Component {
       passwordOne !== passwordTwo ||
       passwordOne === '' ||
       email === '' ||
-      username === '';
+      first_name === '' ||
+      last_name === '';
 
     return (
       <form onSubmit={this.onSubmit}>
-      <h4>Full Name:</h4>
+      <h4>First Name:</h4>
         <input
-          name="username"
-          value={username}
+          name="first name"
+          value={first_name}
           onChange={this.onChange}
           type="text"
-          placeholder="Full Name"
+          placeholder="First Name"
         />
-        <h4>Your Buisness Name:</h4>
+        <h4>Last Name:</h4>
 
         <input
-        BuisnessName="BuisnessName"
-        value={BuisnessName}
+        name="LastName"
+        value={last_name}
         onChange={this.onChange}
         type="text"
-        placeholder="BuisnessName"
+        placeholder="Last Name"
       />
       <h4>Email:</h4>
 
@@ -114,8 +117,6 @@ class SignUpFormBase extends Component {
         <button disabled={isInvalid} type="submit">
           Sign Up
         </button>
-        <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
-        <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
         {error && <p>{error.message}</p>}
       </form>
     );

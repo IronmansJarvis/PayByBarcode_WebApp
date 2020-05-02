@@ -28,3 +28,7 @@
   list-style: none;
   text-align: left;
 }
+button{
+  padding-right: 30px;
+  padding-left: 30px;
+}
