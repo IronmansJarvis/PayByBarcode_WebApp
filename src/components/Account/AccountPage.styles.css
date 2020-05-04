@@ -1,12 +1,5 @@
 
-.AccountPage {
-    text-align: center;
-    margin-top: 20px;  
-  }
-  .AccountPage h1{
-    margin: 30px;
-  }
-  .AccountPage h2{
-    margin: 15px;
-  }
- 
+.AccountPage h2{
+  text-align: center;
+  padding-top: 10%;
+}

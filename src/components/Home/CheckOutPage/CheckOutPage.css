@@ -1,34 +1,49 @@
 
+@-ms-viewport{
+  width: device-width;
+}
 .CheckOutPage {
   text-align: center;
-  margin-top: 20px;  
+  padding-top: 10%; 
 
 }
-.CheckOutPage h1{
-  margin: 30px;
+p{
+  font-size: 120%;
+}
+
+.Checkout p{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
 }
 .CheckOutPage h2{
-  margin: 15px;
+  font-size: 120%;
+  padding-top: 5%;
+  padding-bottom: 1%;
 }
 .Checkout{
-  padding-top: 50px;
-  text-align: center;
-  padding-bottom: 50px; 
-  margin-left: 400px;
-  margin-right: 400px;
-  border: solid 2px;
+  margin-left: 19%;
+  margin-right: 19%;
+  padding-top: 3%;
+  padding-bottom: 5%; 
+  border: solid black 2px;
   backdrop-filter: blur(100px);
-  
 
 }
-
 .Checkout ul{
-  padding: 0;
-  margin: 0;
+  padding-left: 15%;
   list-style: none;
   text-align: left;
+  margin: auto;
+  padding: 2%;
 }
-button{
-  padding-right: 30px;
-  padding-left: 30px;
+.Checkout ul li{
+  padding: 1%;
+  padding-left: 10%;
+}
+
+.Checkout{
+  background: linear-gradient(240deg,#2e4a5c,  #5f95b9,#5d92b6,  #37586e);
+  background-size: 100%;
 }

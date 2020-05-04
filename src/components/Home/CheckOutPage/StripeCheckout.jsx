@@ -1,5 +1,6 @@
 import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
+import './Stripe.css'
 
 
 const StripeCheckoutButton = ({ price }) => {
@@ -12,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
 
     return(
             <StripeCheckout
-            label = 'Pay Now'
+            label = 'For Credit/Debt Card'
             name = 'PayByBarcode Ltd.'
             shippingAddress
             billingAddress
@@ -21,6 +22,7 @@ const StripeCheckoutButton = ({ price }) => {
             amount={stripePrice}
             token={onToken}
             stripeKey={publishableKey}
+          
             />
     )
 

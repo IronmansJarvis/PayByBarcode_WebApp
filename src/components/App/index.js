@@ -51,7 +51,7 @@ class App extends Component {
           <Route exact path={ROUTES.HOME} component={ CheckOutPage} />
           <Route exact path={ROUTES.ACCOUNT} component={AccountPage} />
           <Route exact path={ROUTES.ADMIN} component={AdminPage} />
-          <Route path="/:amount/:id" component={CheckOutPage}/>
+          <Route path="/:home/:amount/:id/:des/:name" component={CheckOutPage}/>
           </div>
 
           </div>
