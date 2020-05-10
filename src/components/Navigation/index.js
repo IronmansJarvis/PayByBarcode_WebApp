@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './index.css';
-
-
 import SignOutButton from '../SignOut';
 import * as ROUTES from '../../constants/routes';
+import LOGO from './LOGO.png';
 
 const Navigation = ({ authUser }) => (
   <div>{authUser ? <NavigationAuth /> : <NavigationNonAuth />}</div>
@@ -13,7 +12,7 @@ const Navigation = ({ authUser }) => (
 const NavigationAuth = () => (
   <div className="AuthOn">
   <ul>
-  <li>  <img id="5" src='./LOGO.png'/>
+  <li>  <img alt="" src={LOGO}/>
   </li>
     <li>
       <Link to={ROUTES.LANDING}>Home</Link>
@@ -35,7 +34,7 @@ const NavigationNonAuth = () => (
   <div className="AuthOff">
 
   <ul>
-  <li>  <img id="5" src='./LOGO.png'/>
+  <li>  <img alt="" src={LOGO}/>
   </li>
     <li>
       <Link to={ROUTES.LANDING}>Home</Link>
