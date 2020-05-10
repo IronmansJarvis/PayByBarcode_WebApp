@@ -1,5 +1,5 @@
 import React from 'react';
-import { AccountPage } from './Accountpage';
+import  {AccountPage}  from './Accountpage';
 
 
 

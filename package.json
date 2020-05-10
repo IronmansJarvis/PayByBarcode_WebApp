@@ -1,11 +1,15 @@
 {
   "name": "react-firebase-authentication",
+  "homepage": "http://paybybarcode.fun/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@firebase/firestore": "^1.14.3",
     "firebase": "^5.5.8",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "node-pre-gyp": "^0.14.0",
+    "react": "0.0.0-33c3af284",
+    "react-dom": "0.0.0-33c3af284",
+    "react-hook-use-state": "^1.1.0",
     "react-paypal-express-checkout": "^1.0.5",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",

@@ -4,7 +4,7 @@
 }
 .CheckOutPage {
   text-align: center;
-  padding-top: 10%; 
+  padding-top: 10vh; 
 
 }
 p{
@@ -18,13 +18,13 @@ p{
   font-size: 100%;
 }
 .CheckOutPage h2{
-  font-size: 120%;
+  font-size: 3vh;
   padding-top: 5%;
   padding-bottom: 1%;
 }
 .Checkout{
-  margin-left: 19%;
-  margin-right: 19%;
+  margin-left: 9vw;
+  margin-right: 9vw;
   padding-top: 3%;
   padding-bottom: 5%; 
   border: solid black 2px;
@@ -39,8 +39,10 @@ p{
   padding: 2%;
 }
 .Checkout ul li{
-  padding: 1%;
-  padding-left: 10%;
+  text-align: left;
+  padding-top: 2%;
+  padding-left: 2vw;
+  font-size: 100%;
 }
 
 .Checkout{
