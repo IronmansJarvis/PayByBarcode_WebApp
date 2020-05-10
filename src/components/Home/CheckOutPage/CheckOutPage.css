@@ -1,51 +1,89 @@
 
-@-ms-viewport{
-  width: device-width;
+
+@media only screen and (min-width: 800px) {
+  
+  
+  .CheckOutPage {
+    text-align: center;
+    padding-top: 3vh; 
+  
+  }
+  .Checkout p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+  }
+  .CheckOutPage h2{
+    font-size: 4vh;
+    padding-top: 7%;
+    padding-bottom: 3%;
+  }
+  .Checkout{
+    margin-left: 29vw;
+    margin-right: 27vw;
+    padding-top: 1%;
+    padding-bottom: 2%; 
+    backdrop-filter: blur(100px);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+
+  }
+  .Checkout ul{
+    padding-left: 5%;
+    list-style: none;
+    text-align: left;
+    margin: auto;
+    padding: 2%;
+  }
+  .Checkout ul li{
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 0vw;
+    font-size: 150%;
+    padding-top: 4%;
+  }
 }
+@media only screen and (max-width: 800px) {
+  
 .CheckOutPage {
   text-align: center;
-  padding-top: 10vh; 
+  padding-top: 6vh; 
 
 }
-p{
-  font-size: 120%;
-}
-
 .Checkout p{
   text-align: center;
   margin: 0;
   padding: 0;
-  font-size: 100%;
+  font-size: 80%;
 }
 .CheckOutPage h2{
-  font-size: 3vh;
-  padding-top: 5%;
-  padding-bottom: 1%;
+  font-size: 2.5vh;
+  padding-top: 8%;
+  padding-bottom: 3%;
 }
 .Checkout{
   margin-left: 9vw;
   margin-right: 9vw;
-  padding-top: 3%;
+  padding-top: 2%;
   padding-bottom: 5%; 
-  border: solid black 2px;
-  backdrop-filter: blur(100px);
+  backdrop-filter: blur(80px);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+
+  
 
 }
 .Checkout ul{
-  padding-left: 15%;
+  padding: 5%;
+  padding-left: 2%;
   list-style: none;
   text-align: left;
   margin: auto;
-  padding: 2%;
 }
 .Checkout ul li{
   text-align: left;
-  padding-top: 2%;
-  padding-left: 2vw;
-  font-size: 100%;
+  font-size: 90%;
+  padding-top: 4%;
 }
 
-.Checkout{
-  background: linear-gradient(240deg,#2e4a5c,  #5f95b9,#5d92b6,  #37586e);
-  background-size: 100%;
+
 }

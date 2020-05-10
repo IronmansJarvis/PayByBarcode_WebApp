@@ -13,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
 
     return(
             <StripeCheckout
-            label = 'For Credit/Debt Card'
+            label = 'Credit / Debt Card'
             name = 'PayByBarcode Ltd.'
             shippingAddress
             billingAddress

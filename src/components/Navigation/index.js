@@ -12,16 +12,16 @@ const Navigation = ({ authUser }) => (
 const NavigationAuth = () => (
   <div className="AuthOn">
   <ul>
-  <li>  <img alt="" src={LOGO}/>
+  <li>  <img className="logo" alt="paybybarcode" src={LOGO}/>
   </li>
     <li>
       <Link to={ROUTES.LANDING}>Home</Link>
     </li>
     <li>
-      <Link to={ROUTES.HOME}>CheckOut</Link>
+    <Link to={ROUTES.ACCOUNT}>Account</Link>
     </li> 
     <li>
-      <Link to={ROUTES.ACCOUNT}>Account</Link>
+    <Link to={ROUTES.HOME}>CheckOut</Link>
     </li>
     <li>
       <SignOutButton />
@@ -34,7 +34,7 @@ const NavigationNonAuth = () => (
   <div className="AuthOff">
 
   <ul>
-  <li>  <img alt="" src={LOGO}/>
+  <li>  <img  alt="" src={LOGO}/>
   </li>
     <li>
       <Link to={ROUTES.LANDING}>Home</Link>

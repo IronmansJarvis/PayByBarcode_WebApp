@@ -1,0 +1,47 @@
+@media only screen and (min-width: 600px) {
+.signup{
+}
+.signup form{
+    text-align: left;
+    margin-left: 10%;
+    padding: 1%;
+}
+ .signup  input{
+    padding: 1% 10% 1% 0.2%;    
+   }
+.signup button{
+    padding: 0.5% 3% 0.5% 3%;
+
+}
+.signup p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+}
+@media only screen and (min-width: 600px) {
+
+    .signup form{
+        text-align: left;
+        margin-left: 5%;
+        padding: 1%;
+    }
+    .signup h4{
+        margin-top: 0.5%;
+
+    }
+     .signup  input{
+         margin-top: 0.5%;
+        padding: 0.5% 10% 0.5% 0.2%;    
+       }
+    .signup button{
+
+        padding: 0.5% 3% 0.5% 3%;
+    
+    }
+    .signup p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

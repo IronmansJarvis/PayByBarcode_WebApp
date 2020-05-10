@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
-
+import "./index.css";
 const SignUpPage = () => (
   <div>
     <h1>SignUp</h1>
@@ -70,6 +70,7 @@ class SignUpFormBase extends Component {
       last_name === '';
 
     return (
+      <div className="signup">
       <form onSubmit={this.onSubmit}>
       <h4>First Name:</h4>
         <input
@@ -118,14 +119,15 @@ class SignUpFormBase extends Component {
         </button>
         {error && <p>{error.message}</p>}
       </form>
+      </div>
     );
   }
 }
 
 const SignUpLink = () => (
-  <p>
+  <h7 style={{margin:'3%'}}>
     Don't have an account? <Link to={ROUTES.SIGN_UP}>Sign Up</Link>
-  </p>
+  </h7>
 );
 
 const SignUpForm = withRouter(withFirebase(SignUpFormBase));

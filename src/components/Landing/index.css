@@ -1,21 +1,183 @@
 
-h1 {
-    padding-top: 10%;
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bolder;
-    
-}
-h2{
-    text-align: center;
-    font-weight: 500;
-}
+@media only screen and (min-width: 700px) {
 
+    h1 {
+        padding-top: 10%;
+        text-align: center;
+        text-decoration: underline;
+        font-weight: bolder;
+        font-size: 100%;
+        
+    }
+ h2{
+     padding-top: 10%;
+    text-align: center;
+    padding-bottom: 1px;
+    font-weight: 500;
+    font-size: 2em;
+}
+.t h4{
+text-align: center;
+color: rgb(253, 253, 253);
+padding: 1%;
+}
+.t img{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    border-radius: 2%;
+    padding-top: 3%;
+}
 .p{
-    padding-top: 1%;
+    padding-top: 3%;
     align-items: center;
     text-align: center;
-    font-size: 90%;
+    font-size: 120%;
 }
+
+.t h3{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 25px;
+    margin-bottom: 25%;
+    color: lavender;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.t h3 a{
+    text-decoration: underline;
+    
+}
+
+.Behind_curtain h3{
+margin-bottom: 0;
+color: #000;
+}
+.Behind_curtain{
+    color:rgb(253, 253, 253);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start ;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+    
+}
+.Behind_curtain h5{
+    padding: 5px;
+    margin: 0;
+    color: rgb(197, 195, 195);
+    font-size: 15px;
+    text-align: left;
+    margin-left: 45px;
+} 
+.Behind_curtain img{
+    width: 400px;
+    height: 250px;
+    position: absolute bottom;
+  }
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    h1 {
+        padding-top: 10%;
+        text-align: center;
+        text-decoration: underline;
+        font-weight: bolder;
+        font-size: 100%;
+        
+    }
+.t img{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    border-radius: 2%;
+    padding-top: 3%;
+
+}
+
+    h2{
+        padding-top: 18%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 100%;
+    }
+    p{
+        padding-top: 3%;
+        text-align: center;
+        font-size: 80%;
+    }
+    .t h3{
+        text-align: center;
+        margin-top: 25%;
+        font-size: 15px;
+        margin-bottom: 5%;
+        color: lavender;
+        padding: 0;
+        text-decoration: underline;
+    }
+       
+    
+.t h3 a{
+    text-decoration: underline;
+    
+}
+
+.Behind_curtain h3{
+    margin-top: 0;
+margin-bottom: 0;
+padding: 0;
+color: rgb(66, 66, 66);
+}
+.Behind_curtain{
+    color:rgb(253, 253, 253);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start ;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+    
+}
+.Behind_curtain h5{
+    padding: 1px;
+    margin: 0;
+    color: rgb(197, 195, 195);
+    font-size: 15%;
+    text-align: left;
+    margin-left: 25px;
+} 
+.Behind_curtain img{
+    width: 120px;
+    height: 80px;
+    position: absolute bottom;
+  }
+
+ h4{
+    text-align: center;
+    color: rgb(90, 88, 88);
+    padding: 1%;
+    font-size: 8px;
+ }
+.Behind_curtain a{
+    color: rgb(66, 66, 66);
+}
+
+}
+
 
 
