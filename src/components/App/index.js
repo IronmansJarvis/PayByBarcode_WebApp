@@ -8,12 +8,12 @@ import SignInPage from '../SignIn';
 import PasswordForgetPage from '../PasswordForget';
 import AccountPage from '../Account';
 import AdminPage from '../Admin';
-
+import Info from '../Info'
 
 import * as ROUTES from '../../constants/routes';
 import { withFirebase } from '../Firebase';
 
-import CheckOutPage from '../Home/CheckOutPage/CheckOutPage.jsx'
+import CheckOutPage from '../Checkout/CheckOutPage/CheckOutPage.jsx'
 
 class App extends Component {
   constructor(props) {
@@ -45,16 +45,18 @@ class App extends Component {
           <Navigation authUser={this.state.authUser} />
           <div > 
           <Route exact path={ROUTES.LANDING} component={LandingPage}/>
+          <Route exact path={ROUTES.INFO} component={Info}/>
           <Route exact path={ROUTES.SIGN_UP} component={SignUpPage} />
           <Route exact path={ROUTES.SIGN_IN} component={SignInPage} />
           <Route exact path={ROUTES.PASSWORD_FORGET} component={PasswordForgetPage} />
-          <Route exact path={ROUTES.HOME} component={ CheckOutPage} />
+          <Route exact path={ROUTES.CHECKOUT} component={ CheckOutPage} />
           <Route exact path={ROUTES.ACCOUNT} component={AccountPage} />
           <Route exact path={ROUTES.ADMIN} component={AdminPage} />
-          <Route path="/:home/:invoice/:key" component={CheckOutPage}/>
+
+          <Route path="/:checkout/:invoice/:key" component={CheckOutPage}/>
           </div>
 
-          </div>
+          </div>  
 
         </Router>
 

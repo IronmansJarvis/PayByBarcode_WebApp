@@ -7,7 +7,7 @@ import * as ROUTES from '../../constants/routes';
 
 import './index.css';
 const SignInPage = () => (
-  <div>
+  <div className="sp">
     <h1>Sign In</h1>
     <SignInForm />
     <SignUpLink />
@@ -34,7 +34,7 @@ class SignInFormBase extends Component {
       .doSignInWithEmailAndPassword(email, password)
       .then(() => {
         this.setState({ ...INITIAL_STATE });
-        this.props.history.push(ROUTES.HOME);
+        this.props.history.push(ROUTES.CHECKOUT);
       })
       .catch(error => {
         this.setState({ error });

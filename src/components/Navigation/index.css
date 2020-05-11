@@ -65,7 +65,7 @@
     position: fixed;
     list-style: none;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     border-top: rgba(42, 88, 134, 0.438) solid 3px;
     border-bottom: rgba(42, 88, 134, 0.438) solid 3px;
     align-items: center;
@@ -105,15 +105,15 @@
 
     
 /*Nav Logo*/
-.logo{
-    width: 100%;
+.AuthOn img{
+    width: 120%;
 }
 .AuthOff img{
-    width: 50%;
+    width: 90%;
 }
 
 .AuthOn ul {
-        margin-top: 10px;
+        margin-top: 20px;
         position: fixed;
         list-style: none;
         display: grid;
@@ -123,10 +123,10 @@
         align-items: center;
         text-align: center;
         background-color: rgba(199, 209, 218, 0.829);
-        font-size: 70%;
+        font-size: 90%;
         font-weight: bold;
-        padding: 0;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        padding: 0px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 
       
     }
@@ -136,7 +136,7 @@
       }
 .AuthOn      a:hover, a:active {
     background-color: rgba(42, 88, 134, 0.438);
-    padding: 5px 9px 5px 9px;
+    padding: 8px 4px 8px 4px;
         color: aliceblue;
 
     }
@@ -153,17 +153,17 @@
     }
 /*Nav bar links AuthOff*/
 .AuthOff ul {
-    margin-top: 10px;
+    margin-top: 20px;
     position: fixed;
     list-style: none;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     border-top: rgba(42, 88, 134, 0.438) solid 2px;
     border-bottom: rgba(42, 88, 134, 0.438) solid 2px;
     align-items: center;
     text-align: center;
     background-color: rgba(199, 209, 218, 0.829);
-    font-size: 70%;
+    font-size: 100%;
     font-weight: bold;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 
@@ -175,13 +175,13 @@
   }
 .AuthOff      a:hover, a:active {
     background-color: rgba(42, 88, 134, 0.438);
-    padding: 5px 9px 5px 9px;
+    padding: 7px 7px 7px 7px;
     color: aliceblue;
 
 }
 .AuthOff    button{
     background: none;
-    font-size: 100%;
+    font-size: 90%;
     font-weight: bold;
 }
 .AuthOff button:hover {

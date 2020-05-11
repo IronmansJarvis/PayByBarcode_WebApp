@@ -1,0 +1,180 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 700px) {
+
+.info-p h1{
+    font-size: 180%;
+    color: rgb(14, 48, 14);
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+
+.infospace {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+}
+
+.info-p h3{
+    padding: 0;
+    text-align: center;
+    font-size: 120%;
+}
+
+.c1 img{
+    width: 100%;
+}
+.c1 {
+    background-image: url('./bcode1.gif');
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: 49% 30%;
+    opacity: 1;
+}
+
+.p1{
+    text-decoration: none;
+    font-size: larger;
+    padding-left: 20px;
+
+}
+
+.Step1 {
+    padding: 2px;;
+    font-weight: bolder;
+    padding-left: 20px;
+
+}
+
+.c2 img{
+    width: 45%;
+    align-items: center;
+    padding-left: 50px;
+
+}
+.Step2{
+    margin-top: 10%;
+    font-weight: bolder;
+}
+.p2{
+    margin-top: 0%;
+    font-size: larger;
+}
+
+
+.c3 img{
+    width: 68%;
+    opacity: 1;
+    background-image: url('./Screenshot.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 40% 23%;
+    opacity: 1;
+}
+
+.Step3{
+    margin-top: 3%;
+    font-weight: bolder;
+}
+.p3{
+    margin-top: 0%;
+    font-size: larger;
+}
+
+}
+
+@media only screen and (max-width: 700px) {
+
+ 
+
+    .info-p h1{
+        color: rgb(14, 48, 14);
+        padding-top: 110px;
+        padding-bottom: 20px;
+    }
+        
+    .info-p h3{
+        padding: 0;
+        text-align: center;
+        font-size: 100%;
+        padding-bottom: 30px;
+    }
+        .infospace {
+        list-style: none;
+    }
+    
+    .c1 img{
+        padding-top: 20px;
+        width: 90%;
+        align-items: center ;
+    }
+    .c1 {
+        background-image: url('./bcode1.gif');
+        background-size: 35%;
+        background-repeat: no-repeat;
+        background-position: 49% 50%;
+        opacity: 1;
+        text-align: center;
+    }
+    
+    .p1{
+        text-decoration: none;
+        font-size: larger;
+    }
+    
+    .Step1 {
+        padding-top: 15px;;
+        font-weight: bolder;
+
+    }
+    .c2{
+        margin-top: 0;
+        padding-top: 0;
+        text-align: center;
+
+    }
+
+    .c2 img{
+        width: 45%;
+        align-items: center;
+        padding-left: 0px;
+    
+    }
+    .Step2{
+        margin-top: 10%;
+        font-weight: bolder;
+    }
+    .p2{
+        margin-top: 0%;
+        font-size: larger;
+    }
+    .c3{
+        text-align: center;
+
+    }
+    
+    .c3 img{
+        width: 68%;
+        opacity: 1;
+        background-image: url('./Screenshot.png');
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: 40% 23%;
+        opacity: 1;
+    }
+    
+    .Step3{
+        margin-top: 3%;
+        font-weight: bolder;
+    }
+    .p3{
+        margin-top: 0%;
+        font-size: larger;
+    }
+    
+
+
+}
