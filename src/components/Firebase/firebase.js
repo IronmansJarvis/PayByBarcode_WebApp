@@ -3,13 +3,14 @@ import 'firebase/auth';
 import 'firebase/firestore';
 
 const config = {
-  apiKey: "AIzaSyBBKkJNtl_S1-pPbuW_mdMWnhPRbjf_ICs",
-  authDomain: "barcode-test-682fc.firebaseapp.com",
-  databaseURL: "https://barcode-test-682fc.firebaseio.com/",
-  projectId: "barcode-test-682fc",
-  storageBucket: "barcode-test-682fc.appspot.com",
-  messagingSenderId: "695189332163",
-  appId: "1:695189332163:web:c6eed7b47add98ac31c276"
+  apiKey: "AIzaSyCORP8H81w0j589Xl6sgKCrxOP5EYLK4r0",
+  authDomain: "pay-by-barcode-42595.firebaseapp.com",
+  databaseURL: "https://pay-by-barcode-42595.firebaseio.com",
+  projectId: "pay-by-barcode-42595",
+  storageBucket: "pay-by-barcode-42595.appspot.com",
+  messagingSenderId: "370842837077",
+  appId: "1:370842837077:web:52e5ce639eadc68713b4dc",
+  measurementId: "G-3Y472N19YY"
 };
 
 
@@ -27,9 +28,6 @@ class Firebase {
     
 
   }
-
-
-  
   // *** Auth API ***
 
   doCreateUserWithEmailAndPassword = (email, password) =>

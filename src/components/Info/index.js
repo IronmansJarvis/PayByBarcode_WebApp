@@ -2,8 +2,6 @@ import React from 'react';
 import './index.css';
 import bcode1 from './PBBbcode.gif';
 import p1 from './1.JPG';
-import p2 from './2.jpg';
-import p3 from './3.jpg';
  
 
 const Landing = () => (
@@ -26,29 +24,12 @@ const Landing = () => (
     <div className="1">
       <img  alt="1" src={p1}/>
       <h3> <a href="https://www.linkedin.com/in/hussain-bin-farrukh/">HUSSAIN BIN FARRUKH </a> </h3>
-      <h5>~PROJECT MANAGER</h5>
-      <h5>~Lead Web Application</h5>
-      <h5> ~Lead Web interface design</h5>
-      <h5>  ~Lead Mobile interface design</h5>
-      <h5>~Lead Production Build</h5>
+      <h5>- PROJECT MANAGER</h5>
+ 
       </div>
-
-      <div className="2">
-      <img alt="2" src={p2}/>
-      <h3><a href="https://www.linkedin.com/in/leland-fletcher-4b742b139/"> LELAND FLETCHER</a></h3>
-      <h5>~Lead Database Design</h5>
-      <h5>~Lead Database implementation</h5>
+      <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="hussain-bin-farrukh"><a class="LI-simple-link" href='https://www.linkedin.com/in/hussain-bin-farrukh?trk=profile-badge'>Hussain Bin Farrukh</a></div>      
       </div>
-
-      <div className="3">
-      <img  alt="3" src={p3}/>
-      <h3><a href="https://www.linkedin.com/in/taylor-benefield-b8a5b7196/">TAYLOR BENEFIELD </a></h3>
-      <h5>~Lead Mobile App development</h5>
       </div>
-      
-      </div>
-      <h4>PayByBarcode LTD</h4>
-    </div>
 );
 
 export default Landing;
